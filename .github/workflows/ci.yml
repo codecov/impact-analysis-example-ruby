@@ -1,0 +1,22 @@
+name: Python package
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby 3.1
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+    - name: Install requirements
+      run: |
+        bundle update --bundler
+        bundle install
+    - name: Run tests and collect coverage
+      run: |
+        bundle exec rspec
+    - name: Upload coverage reports to Codecov with GitHub Action
+      uses: codecov/codecov-action@v3
