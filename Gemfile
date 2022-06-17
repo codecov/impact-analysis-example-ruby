@@ -34,3 +34,9 @@ end
 
 
 gem "tailwindcss-rails", "~> 2.0"
+
+gem 'opentelemetry-sdk'
+gem 'opentelemetry-exporter-otlp'
+gem 'opentelemetry-instrumentation-all'
+
+gem "codecov_opentelem", "~> 0.1.3"
