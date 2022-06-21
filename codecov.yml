@@ -1,3 +1,6 @@
 comment:
   layout: "diff,flags,tree,betaprofiling"
   show_critical_paths: true
+profiling:
+  fixes:
+    - "Users/thomashu/src/github/codecov/::"
