@@ -10,8 +10,8 @@ OpenTelemetry::SDK.configure do |c|
     c.use_all() # enables all instrumentation!
 
     current_env = ENV['CODECOV_OPENTELEMETRY_ENV'] || 'production'
-    current_version = ENV['CURRENT_VERSION'] || '0.0.1'
-    export_rate = 100
+    current_version = ENV['CURRENT_VERSION'] || '0.1.0'
+    export_rate = 1
     untracked_export_rate = 0
 
     generator, exporter = get_codecov_opentelemetry_instances(
@@ -19,6 +19,9 @@ OpenTelemetry::SDK.configure do |c|
         sample_rate: export_rate,
         untracked_export_rate: untracked_export_rate,
         code: "#{current_version}:#{current_env}",
+        filters: {
+            'file_ignore_regex'=>/\/gems\//,
+        },
         version_identifier: current_version,
         environment: current_env,
     )
