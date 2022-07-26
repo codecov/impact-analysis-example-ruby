@@ -39,4 +39,4 @@ gem 'opentelemetry-sdk'
 gem 'opentelemetry-exporter-otlp'
 gem 'opentelemetry-instrumentation-all'
 
-gem "codecov_opentelem", "~> 0.1.3"
+gem "codecov_opentelem"
