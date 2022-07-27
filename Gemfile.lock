@@ -1,8 +1,3 @@
-PATH
-  remote: ../opentelem-ruby
-  specs:
-    codecov_opentelem (0.1.7)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -72,6 +67,7 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     builder (3.2.4)
+    codecov_opentelem (0.1.3)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     debug (1.5.0)
@@ -384,7 +380,7 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
-  codecov_opentelem!
+  codecov_opentelem
   debug
   opentelemetry-exporter-otlp
   opentelemetry-instrumentation-all
