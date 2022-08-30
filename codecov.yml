@@ -4,4 +4,4 @@ comment:
 
 profiling:
   fixes:
-    - "Users/thomashu/src/github/codecov/::"
+    - "Users/thomashu/src/github/codecov/impact-analysis-example-ruby::"
