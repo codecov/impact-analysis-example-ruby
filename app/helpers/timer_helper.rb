@@ -4,7 +4,7 @@ module TimerHelper
     run_rand_20 if rand_run(0.2)
     run_rand_50 if rand_run(0.5)
     run_rand_90 if rand_run(0.9)
-    time.strftime('%Y-%m-%d:%H:%M:%S')
+    time.strftime('%Y-%m-%d::%H:%M:%S')
   end
 
   def rand_run(value)
