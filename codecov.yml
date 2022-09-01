@@ -4,4 +4,8 @@ comment:
 
 profiling:
   fixes:
-    - "Users/thomashu/src/github/codecov/::"
+    # you may need to add fixes with the full directory
+    # up to the repository name on the left side
+    # with respect to the environment running
+    # e.g. - "/home/runner/src/ownername/reponame::"
+    - "::"
