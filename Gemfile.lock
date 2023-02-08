@@ -116,8 +116,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
-    nokogiri (1.13.8-x86_64-linux)
-      racc (~> 1.4)
     opentelemetry-api (1.0.2)
     opentelemetry-common (0.19.6)
       opentelemetry-api (~> 1.0)
@@ -298,7 +296,7 @@ GEM
       opentelemetry-semantic_conventions
     opentelemetry-semantic_conventions (1.8.0)
       opentelemetry-api (~> 1.0)
-    puma (5.6.4)
+    puma (6.0.2)
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
@@ -374,8 +372,6 @@ GEM
       railties (>= 6.0.0)
     tailwindcss-rails (2.0.21-x86_64-linux)
       railties (>= 6.0.0)
-    tailwindcss-rails (2.0.10-x86_64-linux)
-      railties (>= 6.0.0)
     thor (1.2.1)
     timeout (0.3.0)
     tzinfo (2.0.5)
@@ -395,7 +391,7 @@ DEPENDENCIES
   opentelemetry-exporter-otlp
   opentelemetry-instrumentation-all
   opentelemetry-sdk
-  puma (~> 5.0)
+  puma (~> 6.0)
   rails (~> 7.0.3)
   rspec-rails (~> 5.1.2)
   simplecov
