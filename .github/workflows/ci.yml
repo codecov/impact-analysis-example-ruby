@@ -18,6 +18,6 @@ jobs:
     - name: Run tests and collect coverage
       run: bundle exec rspec
     - name: Upload coverage reports to Codecov with GitHub Action
-      uses: codecov/codecov-action@v4
+      uses: codecov/codecov-action@v4-beta-beta-beta-beta
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_ORG_TOKEN }}
