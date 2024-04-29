@@ -33,7 +33,7 @@ group :development do
 end
 
 
-gem "tailwindcss-rails", "~> 2.4"
+gem "tailwindcss-rails", "~> 2.5"
 
 gem 'opentelemetry-sdk'
 gem 'opentelemetry-exporter-otlp'
