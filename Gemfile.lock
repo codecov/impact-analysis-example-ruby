@@ -411,8 +411,8 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (2.2.0-x86_64-darwin)
-    sqlite3 (2.2.0-x86_64-linux-gnu)
+    sqlite3 (2.3.0-x86_64-darwin)
+    sqlite3 (2.3.0-x86_64-linux-gnu)
     stringio (3.1.2)
     tailwindcss-rails (3.0.0)
       railties (>= 7.0.0)
@@ -446,7 +446,7 @@ DEPENDENCIES
   simplecov
   simplecov-cobertura
   sprockets-rails
-  sqlite3 (~> 2.2)
+  sqlite3 (~> 2.3)
   tailwindcss-rails (~> 3.0)
   tzinfo-data
 
