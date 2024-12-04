@@ -332,7 +332,7 @@ GEM
       opentelemetry-api (~> 1.0)
     psych (5.2.0)
       stringio
-    puma (6.4.3)
+    puma (6.5.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.8)
@@ -440,7 +440,7 @@ DEPENDENCIES
   opentelemetry-exporter-otlp
   opentelemetry-instrumentation-all
   opentelemetry-sdk
-  puma (~> 6.4)
+  puma (~> 6.5)
   rails (~> 8.0.0)
   rspec-rails (~> 7.1.0)
   simplecov
