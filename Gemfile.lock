@@ -347,7 +347,7 @@ GEM
     puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.10)
+    rack (3.1.11)
     rack-session (2.1.0)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
@@ -426,17 +426,17 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (2.6.0-x86_64-darwin)
     sqlite3 (2.6.0-x86_64-linux-gnu)
-    stringio (3.1.4)
-    tailwindcss-rails (4.1.0)
+    stringio (3.1.5)
+    tailwindcss-rails (4.2.0)
       railties (>= 7.0.0)
       tailwindcss-ruby (~> 4.0)
-    tailwindcss-ruby (4.0.7-x86_64-darwin)
-    tailwindcss-ruby (4.0.7-x86_64-linux-gnu)
+    tailwindcss-ruby (4.0.9-x86_64-darwin)
+    tailwindcss-ruby (4.0.9-x86_64-linux-gnu)
     thor (1.3.2)
     timeout (0.4.3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    uri (1.0.2)
+    uri (1.0.3)
     useragent (0.16.11)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
@@ -460,7 +460,7 @@ DEPENDENCIES
   simplecov-cobertura
   sprockets-rails
   sqlite3 (~> 2.6)
-  tailwindcss-rails (~> 4.1)
+  tailwindcss-rails (~> 4.2)
   tzinfo-data
 
 RUBY VERSION
